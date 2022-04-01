@@ -1,7 +1,7 @@
 <p style="color: green"><%= notice %></p>
 
 <h1>Resume contents</h1>
-
+<%= link_to "My Resume", @resume_contents %>
 <div id="resume_contents">
   <% @resume_contents.each do |resume_content| %>
     <%= render resume_content %>
